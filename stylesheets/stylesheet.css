@@ -1,5 +1,6 @@
 body {
-	background-color: #b7d1c4
+	background-color: #b7d1c4;
+    background-image: url("images/mainPic.jpg");
 }
 
 h2 {
@@ -46,7 +47,7 @@ li {
 	color: #ffffff;
 	padding: 5px;
 	border-radius: 5px 5px;
-	background-color: #cc0323
+	background-color: lightblue
 }
 
 #left{
@@ -116,7 +117,7 @@ th {
 	left: 229px;
 	bottom: -20px;
 	border-radius: 5px;
-	background-color: #cc0323;
+	background-color: lightblue;
 	height: 30px;
 	width: 150px;
 	
