@@ -1,0 +1,29 @@
+body {
+  background: #e3e3e3;
+  padding: 50px 0;
+}
+.my-container {
+    position: relative;
+    background: #5C97FF;
+    overflow: hidden;
+}
+.my-container h1 {
+    padding: 50px;
+    text-align: center;
+    z-index: 2;
+    position: relative;
+    color: #fff;
+} 
+.my-container img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    z-index: 1;
+    opacity: 1;
+}
+article {
+  background: #fff;
+  padding: 15px;
+}
