@@ -13,16 +13,52 @@
 </ul>
 
 <div style="padding:150px;margin-top:-100px;background-color:#1abc9c;height:1500px;">
-<h1>Fixed Top Navigation Bar</h1>
-<h2>Scroll this page to see the effect</h2>
-<h2>The navigation bar will stay at the top of the page while scrolling</h2>
-
+<h1>Rachana Wanders Around</h1>    
+<p>George Walker Bush (born July 6, 1946) is an American politician and businessman who served as the 43rd President of the United States from 2001 to 2009, and the 46th Governor of Texas from 1995 to 2000. The eldest son of Barbara and George H. W. Bush, he was born in New Haven, Connecticut. After graduating from Yale University in 1968 and Harvard Business School in 1975, he worked in oil businesses. He married Laura Welch in 1977 and ran unsuccessfully for the House of Representatives shortly thereafter. He later co-owned the Texas Rangers baseball team before defeating Ann Richards in the 1994 Texas gubernatorial election. He was elected president in 2000 after a close and controversial election, becoming the fourth president to be elected while receiving fewer popular votes nationwide than his opponent.[6] He is the second president to have been the son of a former president, the first having been John Quincy Adams.[7] He is also the brother of Jeb Bush, who is a former Governor of Florida and candidate for the Republican presidential nomination in the 2016 presidential election.</p>
+    
+<!-- create a display image>   
 <div class="img">
   <a target="_blank" href="images/mainPic.jpg">
     <img src="images/mainPic.jpg" alt="MainPicture" width="300" height="200">
   </a>
   <div class="desc">Add a description of the image here</div>
 </div>
+    
+-->    
+    
+<img id="myImg" src="images/mainPic.jpg" alt="MainPicture" width="300" height="200">
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+  <span class="close">×</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById('myImg');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    modalImg.alt = this.alt;
+    captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+    modal.style.display = "none";
+}
+</script>
+
     
 </div>
 
