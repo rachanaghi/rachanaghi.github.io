@@ -115,12 +115,6 @@ img {
 
 }
 
-#navbar {
-	position: fixed;
-	top:10px;
-	left:50%;
-	margin-left:-254px;
-}
 
 #header {
 	position: relative;
