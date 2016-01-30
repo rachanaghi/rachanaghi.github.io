@@ -7,7 +7,7 @@ body {
     background-attachment: fixed;
     z-index:-1;
 }
-
+/*
 ul {
     list-style-type: none;
     margin: 0;
@@ -22,11 +22,13 @@ ul {
 li {
     float: left;
 }
-
+*/
 p{
     font-family: "Lucida Console", Monaco, monospace;
+	line-height: 150%;
+	color: navy;
 }
-
+/*
 li a {
     display: block;
     color: white;
@@ -42,7 +44,7 @@ li a:hover:not(.active) {
 .active {
     background-color: #4CAF50;
 }
-
+*/
 div.img {
     margin: 5px;
     border: 1px solid #ccc;
@@ -65,10 +67,10 @@ div.desc {
 }
 
 #main{
-	padding:150px;
+	padding:200px;
 	background-color: rgba(0, 0, 0, 0.2);
 	background-color: wheat;
-	margin-top:50px;
+	margin-top:-20px;
 	height:1500px;
 	background-image: url(../images/mainPic1.jpg);
 	background-attachment: fixed;
@@ -78,8 +80,8 @@ div.desc {
 }
 
 #container{ 
-	padding:100px;
-	margin-top:-100px;
+	padding:150px;
+	margin-top:-200px;
 	height:1500px;
 }
 
