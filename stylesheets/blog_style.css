@@ -76,18 +76,18 @@ div.desc {
 
 #Wandering{
 	font-family: 'Brush Script MT', cursive;
-	color:black;
-	font-size: 60px;
-	margin-top:-170px;
-	margin-left:-320px;
+	color:brown;
+	font-size: 95px;
+	margin-top:-300px;
+	margin-left:-340px;
 }
 
 #Reflections{
 	font-family: 'Brush Script MT', cursive;
-	color:black;
-	font-size: 60px;
-	margin-top:00px;
-	margin-left:668px;
+	color:darkcyan;
+	font-size: 95px;
+	margin-top:-5px;
+	margin-left:655px;
 }
 
 #titlecontainer{
@@ -110,25 +110,11 @@ div.desc {
   margin-top:-50px;
 }
 
-
-#tree{
-  position: fixed;
-  padding: 160px;
-  margin-top:320px;
-  height:50px;
-  margin-left:830px;
-  top: -10px;
-  left: 1px;
-  z-index: 999;
-  width: 50%;	
-  
-}
-
 #leftTree{
-  width:100%;
+  width:40%;
   height:200px;
-  margin-left:0px;
-  margin-top:-50px;
+  margin-left:-340px;
+  margin-top:-120px;
 }
 
 
