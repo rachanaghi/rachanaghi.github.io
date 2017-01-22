@@ -363,9 +363,16 @@ img{max-width:100%;}
 	display: block;
 	margin: 0px 5px;
 }
-.catch-me ul li a img{
+.catch-me ul li a {
 	border-radius: 50%;
 }
+
+.catch-me img{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+
 /*----footer----*/
 .footer{
 	text-align:center;
